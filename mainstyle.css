@@ -1,1 +1,2 @@
-#topNav {background-color:#eeeeff;color:#0000ff;}
+body {margin:0px;padding:0px;}
+#topNav {height:50px;display:block;position:fixed;top:0px;left:0px;right:0px;margin:0px;padding:0px;background-color:#eeeeff;color:#0000ff;}
