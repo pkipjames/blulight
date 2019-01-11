@@ -15,9 +15,10 @@
 <title>Bluelight OS</title>
 <link rel="stylesheet" href="mainstyle.css"/>
   <script src="pkipscriptbeta.js"></script>
-  <script>
+  <script>try{
     var imagebox=document.getElementById("homeSlideShow");
     makeSlideShow(imagebox,["logomain.png","shot1.png","shot2.png"],1000);
+    }catch(err){alert("wholepage: "+err);}
   </script>
 </head><body>
 
