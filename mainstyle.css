@@ -5,3 +5,5 @@ body {margin:0px;padding:0px;}
 #mainContent {position:fixed;top:50px;margin:0px;left:0px;right:0px;bottom:0px;overflow:scroll;padding:0px;}
 a {text-decoration:none;}
 .menuLink {text-decoration:none;}
+ul.menu {list-style-position:outside;list-style-type:none;}
+ul.menu li {list-style-position:outside;list-style-type:none;}
