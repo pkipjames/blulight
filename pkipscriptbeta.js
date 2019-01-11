@@ -13,7 +13,7 @@ element.style.backgroundImage="url(\""+url1+"\")";
 
 
 currentItem+=1;
-setTimeout(slideShow(element,imagearray,interval));
+setTimeout(function(){slideShow(element,imagearray,interval)},interval);
 }
-setTimeout(slideShow(element,imagearray,interval));
+setTimeout(function(){slideShow(element,imagearray,interval)},interval);
 }
