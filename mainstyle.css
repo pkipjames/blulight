@@ -1,7 +1,7 @@
 body {margin:0px;padding:0px;}
 #topNav {height:50px;display:block;position:fixed;top:0px;left:0px;right:0px;margin:0px;padding:0px;background-color:#000000;color:#ffffff;}
 #topNav details {background-color:#000000;color:#ffffff;position:fixed;right:10px;}
-#topNav details ul {background-color:#000000;border:1px solid #ffffff;display:block;position:fixed;right:0px;left:0px;}
+#topNav details ul {background-color:#000000;border:1px solid #ffffff;width:100%;display:block;position:fixed;right:0px;left:0px;}
 #mainContent {position:fixed;top:50px;margin:0px;left:0px;right:0px;bottom:0px;overflow:scroll;padding:0px;}
 a {text-decoration:none;}
 .menuLink {text-decoration:none;}
