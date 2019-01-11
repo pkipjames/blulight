@@ -1,7 +1,7 @@
 body {margin:0px;padding:0px;}
 #topNav {height:50px;display:block;position:fixed;top:0px;left:0px;right:0px;margin:0px;padding:0px;background-color:#000000;color:#0000ff;}
 #topNav details {background-color:#000000;color:#ffffff;}
-#topNav details ul {background-color:#000000;border:1px solid #ffffff;display:block;position:absolute;}
+#topNav details ul {background-color:#000000;border:1px solid #ffffff;display:block;position:absolute;right:3%;}
 #mainContent {position:fixed;top:50px;margin:0px;left:0px;right:0px;bottom:0px;overflow:scroll;padding:0px;}
 a {text-decoration:none;}
 .menuLink {text-decoration:none;}
