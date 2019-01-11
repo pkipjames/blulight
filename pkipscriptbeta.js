@@ -1,4 +1,4 @@
-function makeSlideShow(element,imagearray,interval){
+function makeSlideShow(element,imagearray,interval){try{
 
 
 
@@ -13,7 +13,8 @@ element.style.backgroundImage="url(\""+url1+"\")";
 
 
 currentItem+=1;
-setTimeout(function(){slideShow(element,imagearray,interval)},interval);
+setTimeout(function(){slideShow(element,imagearray,interval);},interval);
 }
-setTimeout(function(){slideShow(element,imagearray,interval)},interval);
+setTimeout(function(){slideShow(element,imagearray,interval);},interval);
+}catch(err){alert("makeSlideShow: "+err);}
 }
