@@ -11,5 +11,5 @@ a {text-decoration:none;}
 ul.menu {list-style-position:outside;list-style-type:none;}
 ul.menu li {list-style-position:outside;list-style-type:none;}
 .wallPaperBG {background-image:url("wallpaper.png");background-repeat:no-repeat;background-size:cover;}
-.center {text-align:center;}
+.center {display:block;position:absolute;text-align:center;}
 h1,h2,h3,h4,h5,h6 {font-family:"apple sd gothic neo","helvetica neue",helvetica,sans-serif;font-weight:100;}
