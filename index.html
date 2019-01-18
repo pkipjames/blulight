@@ -15,12 +15,22 @@
 
 <title>Bluelight OS</title>
 <link rel="stylesheet" href="mainstyle.css"/>
-  <script>onerror=function (){alert("Error\n\n"+arguments.join("\n\n"));};</script>
-	<script src="jquery-3.3.1.min.js"></script>
-	<script src="jquery-ui.min.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
   <script src="scripts1.js"></script>
   <script>
-   
+   $( "#dialog" ).dialog({
+  dialogClass: "no-close",
+  buttons: [
+    {
+      text: "OK",
+      click: function() {
+        $( this ).dialog( "close" );
+      }
+    }
+  ]
+});
+
   </script>
 </head><body>
 
