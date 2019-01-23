@@ -20,17 +20,7 @@
   <script src="scripts1.js"></script>
   <script>
 	  
-   $(box).dialog({
-  dialogClass: "no-close",
-  buttons: [
-    {
-      text: "OK",
-      click: function() {
-        $( this ).dialog( "close" );
-      }
-    }
-  ]
-});
+ 
 	  
   </script>
 </head><body>
@@ -39,7 +29,11 @@
   <a style="border:0px none;" href="index.html"><img height="40" src="logomain.png" alt="Logo" style="display:inline;"/></a>
   <label style="vertical-align:middle;" for="mainMenu1">Menu</label>
   <input type="checkbox" id="mainMenu1" />
-  <ul class="menu" style="color:#ffffff;"><li><a href="index.html" class="menuItem">Home</a></ul>
+  <ul class="menu" style="color:#ffffff;"><li><a href="index.html" class="menuItem">Home</a>
+	<a href="download.html" class="menuItem">Download</a>
+	<a href="about.html" class="menuItem">About</a>
+	<a href="more.html" class="menuItem">More</a>
+	</ul>
   </nav>
 
 <section class="wallPaperBG" id="mainContent"><span style="color:#ffffff;">
@@ -47,7 +41,6 @@
   <div id="homeSlideShow" alt="Image Box" style="background-image:url('logomain.png');display:block;width:100%;padding:0px;background-size:contain;background-repeat:no-repeat;height:100px;"></div>
   <p>BlueLight, formerly called OS.js Linux, is the lighweight web based Linux distro powered by OS.js. It uses the power of Electron to run a web based desktop environment, OS.js, to provide the user with a more web based experience.</p>
   </span>
-	<div id="dialog">Hello There</div>
 </section>
 
 
