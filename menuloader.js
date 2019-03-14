@@ -1,7 +1,11 @@
-function (){
+function startMenu(){
 var menu=document.getElementById("appendToMenu");
 var linksForMenu=[
-{name:"Download",href="download.html"}
+{name:"News",href:"news.html"},
+  {name:"About",href:"about.html"},
+
+{name:"Download",href:"download.html"}
+
 
 
 ];
@@ -29,4 +33,4 @@ menu.appendChild(elt("li",null,elt("a",{href:item.href},item.name)));
 
 }
 
-}();
+}
