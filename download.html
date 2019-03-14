@@ -1,7 +1,5 @@
 
-
-<!DOCTYPE html><html><head>
-  <meta charset="utf-8" />
+<!DOCTYPE html><html lang="en-us"><head>
 <meta name="theme-color" content="#000000"/>
   
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -14,34 +12,35 @@
 <link rel="apple-touch-startup-image" href="logo.png" />
 <link rel="apple-touch-startup-image" href="logo.png" />
 
-<title>Bluelight OS-Download</title>
+<title>Bluelight OS</title>
 <link rel="stylesheet" href="mainstyle.css"/>
 <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="jquery-ui.min.js"></script>
   <script src="scripts1.js"></script>
   <script>
 	  
+ 
 	  
   </script>
-</head><body>
+	<script src="menuloader.js"></script>
+</head><body onload="startMenu();">
 
 <nav style="background-color:#000000;color:#ffffff;" id="topNav">
   <a style="border:0px none;" href="index.html"><img height="40" src="logomain.png" alt="Logo" style="display:inline;"/></a>
   <label style="vertical-align:middle;" for="mainMenu1">Menu</label>
   <input type="checkbox" id="mainMenu1" />
-  <ul class="menu" style="color:#ffffff;"><li><a href="index.html" class="menuItem">Home</a>
-	<a href="download.html" class="menuItem">Download</a>
-	<a href="about.html" class="menuItem">About</a>
-	<a href="more.html" class="menuItem">More</a>
+	<ul class="menu" id="appendToMenu" style="list-style-type:none;list-style-position:inside;color:#ffffff;">
+		<li><a href="index.html" class="menuItem">Home</a></li>
+		
 	</ul>
-  </ul>
   </nav>
 
 <section class="wallPaperBG" id="mainContent"><span style="color:#ffffff;">
-  <h1 style="color:#ffffff;" class="center">Download BluelightOS</h1>
+  <h1 style="color:#ffffff;" class="center">Get BluelightOS</h1>
+  <div id="homeSlideShow" alt="Image Box" style="background-image:url('logomain.png');display:block;width:100%;padding:0px;background-size:contain;background-repeat:no-repeat;height:100px;"></div>
+  <a title="Download BluelightOS" href="bluelight.iso">Get ISO</a>
 
 </span>
-	<div id="dialog">Hello There</div>
 </section>
 
 
